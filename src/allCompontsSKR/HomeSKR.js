@@ -23,7 +23,7 @@ const HomeSKR = () => {
 
               {/* Introduction paragraph */}
               <Paragraph className="paragraph">
-                Like Recipe Radar is an innovative culinary application designed to revolutionize the way users discover and explore recipes.
+                Recipe Radar is an innovative culinary application designed to revolutionize the way users discover and explore recipes.
                 Unlike traditional recipe platforms, Recipe Radar employs advanced AI algorithms to curate personalized recipe recommendations based on individual preferences, dietary restrictions, and cooking habits.
               </Paragraph>
 
