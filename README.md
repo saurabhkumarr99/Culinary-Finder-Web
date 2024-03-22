@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Recepie Radar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Welcome to Recipe Finder! This project is a responsive web and mobile application that allows authenticated users to search for food recipes. The application integrates the Edamam API to fetch recipe data based on user queries. Users can explore a variety of recipes, view detailed information about each recipe, and enjoy a seamless user experience across web and mobile platforms.
 
-In the project directory, you can run:
+## Language : React 
 
-### `npm start`
+## Project Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- GitHub: [Recepie Radar -Web Version (React)](https://github.com/saurabhkumarr99/Culinary-Finder-Web)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- GitHub: [Recepie Radar -App Version (React Native)](https://github.com/saurabhkumarr99/Stock-Market-Dashboard-App)
 
-### `npm test`
+- Live: [Recepie Radar -Web Version (React)](https://saurabhkumarr99.github.io/Host-Culinary-Finder/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+- Live Expo Go QR code: Scan the following QR code with an Android device to open it in Expo Go.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="./ScreenShots/StockMarketQR.png" alt="Screenshot 1" width="300" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Table of Contents
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Components Structure](#components-structure)
+- [Screenshots](#screenshots)
+- [Author](#author)
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **User Authentication:** Allow users to register, log in, and log out securely.
+- **Recipe Search:** Enable users to search for recipes based on various criteria, such as ingredients, cuisine type, and dietary restrictions.
+- **Recipe Details:** Display comprehensive information about each recipe, including ingredients, nutritional facts, and cooking instructions.
+- **Responsive Design:** Ensure the application is fully responsive and functional on both web and mobile devices.
+- **User Dashboard:** Provide users with a personalized dashboard to view their search history and favorite recipes.
+- **Data Refresh:** Implement functionality to refresh recipe data periodically or on user request.
+- **Mobile-Specific Features:** Utilize mobile-specific features and gestures to enhance the user experience in the mobile app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js and npm (Node Package Manager) installed on your computer.
+- Node.js: [Download and Install Node.js](https://nodejs.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow these steps to run the Blog App locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Unzip the Recepie Radar App:**
 
-### Code Splitting
+2. **Navigate to the project directory:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   cd RecepieRadar
+   ``` 
 
-### Analyzing the Bundle Size
+2. **Install Dependencies:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm install
+   ``` 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **Run:**
 
-### Advanced Configuration
+ - `Start Project`
+   ```bash
+      npm start
+   ``` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ - `Test Project`
+   ```bash
+      npm test
+   ``` 
 
-### Deployment
+ - `Test Coverage`
+   ```bash
+      npm run coverage
+   ``` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- `Selenium Testing`
 
-### `npm run build` fails to minify
+   Go to SeleniumTest folder and run -
+   ```bash
+      node LoginSKRTest
+   ``` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Usage
+
+- **Search for Recipes**: Use the search feature to find recipes based on ingredients, cuisine type, dietary restrictions, and more.
+- **View Recipe Details**: Click on a recipe card to view detailed information including ingredients, nutritional facts, and cooking instructions.
+- **Save Favorite Recipes**: Save your favorite recipes to access them later from the user dashboard.
+
+## Code Structure
+
+The project follows a structured directory layout for better organization:
+
+- **allComponentsskr/**
+- **ScreenShots/**
+- **App.js**
+- **README.md**
+
+## Screenshots
+
+<p align="center">
+   <img src="./ScreenShots/1-Home.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/2-AboutUs.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/3-ContactUs.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/4.a-Register.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/4.b-Register.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/4.c-Register.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/5-Login.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/6-AllStock.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/7-FavStock.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/8-Search.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/9.a-AllChart.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/9.b-AllChart.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/10-FavChart.png" alt="Screenshot 1" width="300" />   
+</p>
+
+
+- `Unit Test`
+<p align="center">
+  <img src="./ScreenShots/4.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/5.png" alt="UnitTest" width="300" />
+</p
+
+- `Coverage Test`
+<p align="center">
+  <img src="./ScreenShots/1.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/2.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/3.png" alt="UnitTest" width="300" />
+</p
+
+
+## Author
+
+- SAURABH KUMAR RAI
+
