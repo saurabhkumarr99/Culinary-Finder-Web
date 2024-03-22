@@ -10,7 +10,7 @@ const ContactPageSKR = () => {
   const [serverResponse, setServerResponse] = useState('');
 
   // Handle form submission
-  const handleFormSubmit = () => {
+  const handleFormSubmitSKR = () => {
     setServerResponse('Thank you for reaching out! We will get back to you shortly.');
     // Add logic here to handle form submission
   };
@@ -71,7 +71,7 @@ const ContactPageSKR = () => {
             {/* Submit Button */}
             <Row justify="center">
               <Col>
-                <Button type="primary" onClick={handleFormSubmit}>
+                <Button type="primary" onClick={handleFormSubmitSKR}>
                   Send
                 </Button>
               </Col>

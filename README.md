@@ -10,7 +10,7 @@ Welcome to Recipe Finder! This project is a responsive web and mobile applicatio
 
 - GitHub: [Recepie Radar -Web Version (React)](https://github.com/saurabhkumarr99/Culinary-Finder-Web)
 
-- GitHub: [Recepie Radar -App Version (React Native)](https://github.com/saurabhkumarr99/Stock-Market-Dashboard-App)
+- GitHub: [Recepie Radar -App Version (React Native)](https://github.com/saurabhkumarr99/Culinary-Finder-App)
 
 - Live: [Recepie Radar -Web Version (React)](https://saurabhkumarr99.github.io/Host-Culinary-Finder/)
 
@@ -84,9 +84,8 @@ Follow these steps to run the Blog App locally:
 
 - `Selenium Testing`
 
-   Go to SeleniumTest folder and run -
    ```bash
-      node LoginSKRTest
+     node ./src/TestFilesSKR/SeleniumTestSKR/LoginSKRTest 
    ``` 
 
 
@@ -107,6 +106,8 @@ The project follows a structured directory layout for better organization:
 
 ## Screenshots
 
+### Web (React)
+
 <p align="center">
    <img src="./ScreenShots/1-Home.png" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/2-AboutUs.png" alt="Screenshot 1" width="300" />
@@ -117,6 +118,17 @@ The project follows a structured directory layout for better organization:
   
 </p>
 
+### Web (React Native)
+
+<p align="center">
+   <img src="./ScreenShots/1.a-Home.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/2.a-AboutUs.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/3.a-ContactUs.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/5.a-Login.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/6.a-AllRecepi.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/4.a-RecDetail.jpg" alt="Screenshot 1" width="300" />
+  
+</p>
 
 - `Unit Test`
 <p align="center">
